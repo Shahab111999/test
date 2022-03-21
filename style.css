@@ -1,0 +1,342 @@
+@font-face {
+  font-family: "Babyface";
+  src: url("./fonts/Babyface.ttf");
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Babyface";
+}
+
+.max {
+  max-width: 1200px;
+
+  margin: auto;
+}
+.menu {
+  margin: auto;
+  width: 59.1%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.menu h2 a {
+  transition: 0.3s cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+.main {
+  background-color: #e6e6e6;
+}
+.main-img {
+  position: relative;
+  width: 100%;
+  margin: auto;
+}
+.relative {
+  position: relative;
+}
+.absolute {
+  position: absolute;
+}
+.card1,
+.card2,
+.card3,
+.card4,
+.card5,
+.card6,
+.card7 {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+
+.card1 img,
+.card2 img,
+.card3 img,
+.card4 img,
+.card5 img,
+.card6 img,
+.card7 img {
+  width: 100%;
+}
+
+.card1 h2 {
+  position: absolute;
+  top: 25%;
+  left: 7%;
+  transform: rotate(11deg);
+  z-index: 1001;
+  font-size: 27px;
+}
+.card1 h2 a {
+  text-decoration: none;
+  color: #50953c;
+}
+.card1 h2 a:hover {
+  color: #222;
+}
+.card2 h2 {
+  position: absolute;
+  top: 42%;
+  left: 19%;
+  transform: rotate(1deg);
+  z-index: 1000;
+  font-size: 27px;
+}
+.card2 h2 a {
+  text-decoration: none;
+  color: #e88726;
+}
+.card2 h2 a:hover {
+  color: #222;
+}
+.card3 h2 {
+  position: absolute;
+  top: 42%;
+  left: 31%;
+  transform: rotate(-1deg);
+  z-index: 1000;
+  font-size: 27px;
+}
+.card3 h2 a {
+  text-decoration: none;
+  color: #2a79bf;
+}
+.card3 h2 a:hover {
+  color: #222;
+}
+.card4 h2 {
+  position: absolute;
+  top: 40%;
+  left: 44%;
+  line-height: 20px;
+  transform: rotate(-7deg);
+  z-index: 1000;
+  font-size: 19px;
+  text-align: center;
+}
+
+.card4 h2 a {
+  text-decoration: none;
+  color: #d7080d;
+}
+.card4 h2 a:hover {
+  color: #222;
+}
+
+.card5 h2 {
+  position: absolute;
+  top: 33%;
+  left: 55%;
+  transform: rotate(-12deg);
+  z-index: 1000;
+  font-size: 27px;
+}
+
+.card5 h2 a {
+  text-decoration: none;
+  color: #ae06d8;
+}
+.card5 h2 a:hover {
+  color: #222;
+}
+.card6 h2 {
+  position: absolute;
+  top: 25%;
+  left: 69%;
+  transform: rotate(-9deg);
+  z-index: 1000;
+  font-size: 20px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.card6 h2 a {
+  text-decoration: none;
+  color: #51953d;
+}
+.card6 h2 a:hover {
+  color: #222;
+}
+
+.card7 h2 {
+  position: absolute;
+  top: 21%;
+  left: 80%;
+  transform: rotate(-11deg);
+  z-index: 992;
+  font-size: 27px;
+}
+.card7 h2 a {
+  text-decoration: none;
+  color: #ea923c;
+}
+.card7 h2 a:hover {
+  color: #222;
+}
+.main-div {
+  position: absolute;
+  top: 12%;
+  width: 100%;
+  top: 0;
+}
+
+@media (max-width: 1000px) {
+  .card1 h2 {
+    font-size: 22px;
+    top: 28%;
+  }
+  .card2 h2 {
+    font-size: 22px;
+    top: 42%;
+  }
+}
+.card3 h2 {
+  font-size: 22px;
+  top: 42%;
+}
+.card4 h2 {
+  top: 36%;
+  left: 43.5%;
+  line-height: 13px;
+  transform: rotate(-10deg);
+  z-index: 1000;
+  font-size: 15.5px;
+  text-align: center;
+}
+.card5 h2 {
+  font-size: 22px;
+  transform: rotate(-10deg);
+}
+.card6 h2 {
+  top: 22%;
+  left: 69%;
+  transform: rotate(-11deg);
+  z-index: 1000;
+  font-size: 16px;
+  line-height: 14px;
+  text-align: center;
+}
+.card7 h2 {
+  font-size: 22px;
+}
+
+@media (max-width: 786px) {
+  .menu {
+    width: 100%;
+  }
+  .card1 h2 {
+    font-size: 26px;
+    left: 7%;
+    top: 28%;
+  }
+  .card2 h2 {
+    font-size: 26px;
+    left: 19%;
+    top: 42%;
+  }
+  .card3 h2 {
+    font-size: 26px;
+    left: 31%;
+    top: 42%;
+  }
+  .card4 h2 {
+    top: 35%;
+    left: 44%;
+    line-height: 19px;
+    transform: rotate(-9deg);
+    font-size: 19px;
+  }
+  .card5 h2 {
+    font-size: 22px;
+    left: 55%;
+    top: 35%;
+  }
+  .card6 h2 {
+    font-size: 19px;
+    line-height: 10x;
+    top: 24%;
+    line-height: 16px;
+  }
+  .card7 h2 {
+    font-size: 22px;
+    top: 22%;
+    left: 80%;
+  }
+}
+
+@media (max-width: 600px) {
+  .card1 h2 {
+    font-size: 20px;
+    left: 7%;
+    top: 23%;
+    text-align: center;
+  }
+  .card2 h2 {
+    font-size: 20px;
+    left: 18%;
+    top: 39%;
+  }
+  .card3 h2 {
+    font-size: 20px;
+    left: 30%;
+    top: 40%;
+  }
+  .card4 h2 {
+    top: 35%;
+    left: 44%;
+    line-height: 12px;
+    transform: rotate(-9deg);
+    font-size: 14px;
+  }
+  .card5 h2 {
+    font-size: 18px;
+    left: 54%;
+    top: 30%;
+  }
+  .card6 h2 {
+    font-size: 13px;
+    line-height: 12px;
+    top: 22%;
+  }
+  .card7 h2 {
+    font-size: 17px;
+    top: 18%;
+    left: 79%;
+  }
+}
+
+@media (max-width: 360px) {
+  .card1 h2 {
+    font-size: 15px;
+
+    top: 26%;
+  }
+  .card2 h2 {
+    font-size: 15px;
+    top: 38%;
+  }
+  .card3 h2 {
+    font-size: 15px;
+    top: 38%;
+  }
+  .card4 h2 {
+    font-size: 10px;
+    top: 35%;
+    line-height: 8px;
+  }
+  .card5 h2 {
+    font-size: 15px;
+    top: 29%;
+  }
+  .card6 h2 {
+    font-size: 10px;
+    line-height: 10px;
+    top: 19%;
+  }
+  .card7 h2 {
+    font-size: 15px;
+    top: 16%;
+  }
+}
